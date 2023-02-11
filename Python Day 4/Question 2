@@ -1,0 +1,8 @@
+t=int(input("Enter total users:  "))
+s=int(input("Enter staff users:  "))
+n=s/3
+if(t<1 or t<=s):
+    print('invalid input')
+else:
+    st=t-(s+n)
+    print('student users are' ,st)
